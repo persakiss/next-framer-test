@@ -1,6 +1,15 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import Nav from "@/components/Nav";
+import "@/styles/globals.css";
+import { AnimatePresence } from "framer-motion";
+import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Nav />
+      <AnimatePresence initial={false} mode="popLayout">
+        <Component {...pageProps} />
+      </AnimatePresence>
+    </>
+  );
 }

@@ -17,11 +17,66 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+body, html {
+  height: 100%;
+}
+
+.page1 {
+  background-color: palevioletred;
+}
+
+
+.page2 {
+  background-color: blanchedalmond;
+}
+
+.page3 {
+  background-color: aquamarine;
+}
+
+.page4 {
+  background-color: cornflowerblue;
+
+}
+
+nav {
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+  margin: auto;
+  align-self: center;
+}
+
+
+.page0, .page1, .page2, .page3, .page4 {
+  padding-top: 3rem;  /* adjust as per the height of your nav */
+  height: 100vh;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
+h2 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+h2:hover {
+  text-decoration: none;
 }
