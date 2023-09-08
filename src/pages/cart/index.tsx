@@ -12,7 +12,6 @@ function Cart(props: AboutPageProps, ref: AboutPageRef) {
     <PageTransition ref={ref}>
       <div className="page4">
         <div className="text">
-          <h2>Cart</h2>
         </div>
       </div>
     </PageTransition>

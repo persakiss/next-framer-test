@@ -24,10 +24,6 @@ html {
   background-attachment: fixed;
   background-position: center center;
 }
-
-body {
-}
-
 body,
 html {
   height: 100%;
@@ -56,6 +52,12 @@ html {
 }
 
 .page2 {
+  background-image: url("../assets/plant.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  will-change: transform;
 }
 
 .page3 {

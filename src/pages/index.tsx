@@ -12,7 +12,7 @@ function IndexPage(props: IndexPageProps, ref: IndexPageRef) {
     <PageTransition ref={ref}>
       <div className="page0">
         <div className="text">
-          <h2>Home</h2>
+          
         </div>
       </div>
     </PageTransition>
