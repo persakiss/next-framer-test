@@ -17,28 +17,50 @@
 }
 
 body {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
 .page1 {
-  background-color: palevioletred;
+  background-image: url("../assets/device.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  will-change: transform;
+  animation: slide 8s ease-in-out infinite;
+
+
 }
 
+@keyframes slide {
+  0% {
+      transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, -20px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
 
 .page2 {
-  background-color: blanchedalmond;
 }
 
 .page3 {
-  background-color: aquamarine;
 }
 
 .page4 {
-  background-color: cornflowerblue;
-
 }
 
 nav {
@@ -48,7 +70,6 @@ nav {
   top: 0;
   z-index: 10;
   text-align: center;
-
 }
 
 nav ul li {
@@ -59,9 +80,12 @@ nav ul li {
   align-self: center;
 }
 
-
-.page0, .page1, .page2, .page3, .page4 {
-  padding-top: 3rem;  /* adjust as per the height of your nav */
+.page0,
+.page1,
+.page2,
+.page3,
+.page4 {
+  padding-top: 3rem; /* adjust as per the height of your nav */
   height: 100vh;
 }
 
@@ -69,7 +93,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%
+  height: 100%;
 }
 
 h2 {
