@@ -19,6 +19,7 @@
 body {
   background-image: url("../assets/bg.png");
   background-size: cover;
+  will-change: transform;
 
   background-repeat: no-repeat;
   background-attachment: fixed;
