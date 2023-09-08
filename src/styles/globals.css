@@ -16,14 +16,16 @@
   }
 }
 
-body {
+html {
+
   background-image: url("../assets/bg.png");
   background-size: cover;
-  will-change: transform;
-
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
+}
+
+body {
 }
 
 body,
@@ -36,11 +38,9 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   will-change: transform;
   animation: slide 8s ease-in-out infinite;
-
-
 }
 
 @keyframes slide {
