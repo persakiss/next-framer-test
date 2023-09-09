@@ -29,8 +29,19 @@ html {
   height: 100%;
 }
 
+
+
 .page1 {
+  background-image: url("../assets/platform.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.device {   
   background-image: url("../assets/device.png");
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -41,13 +52,13 @@ html {
 
 @keyframes slide {
   0% {
-      transform: translate(0, 0px);
+      transform: translate(0, -2rem);
   }
   50% {
-    transform: translate(0, -20px);
+    transform: translate(0, -3rem);
   }
   100% {
-    transform: translate(0, 0px);
+    transform: translate(0, -2rem);
   }
 }
 
