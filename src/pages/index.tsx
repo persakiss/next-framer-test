@@ -11,8 +11,7 @@ function IndexPage(props: IndexPageProps, ref: IndexPageRef) {
   return (
     <PageTransition ref={ref}>
       <div className="page0">
-        <div className="text">
-          
+        <div className="spill">
         </div>
       </div>
     </PageTransition>
