@@ -81,9 +81,21 @@ html {
 }
 
 .page3 {
+  background-image: url("../assets/transp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  will-change: transform;
 }
 
 .page4 {
+  background-image: url("../assets/transp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  will-change: transform;
 }
 
 nav {
