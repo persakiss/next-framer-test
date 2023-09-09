@@ -11,10 +11,8 @@ function About(props: AboutPageProps, ref: AboutPageRef) {
   return (
     <>
       <PageTransition ref={ref}>
-        <div className="page1">
-          <div className="device">
-          
-            <div className="text"></div>
+        <div className="page2">
+          <div className="stone">
           </div>
         </div>
       </PageTransition >

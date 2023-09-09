@@ -10,9 +10,11 @@ type IndexPageRef = React.ForwardedRef<HTMLDivElement>;
 function IndexPage(props: IndexPageProps, ref: IndexPageRef) {
   return (
     <PageTransition ref={ref}>
-      <div className="page0">
-        <div className="spill">
-        </div>
+      <div className="page1">
+      <div className="plant">
+        <div className="plate">
+          <div className="device">
+          </div></div></div>
       </div>
     </PageTransition>
   );

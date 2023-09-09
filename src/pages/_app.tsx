@@ -10,16 +10,16 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <div className="spill">
         <Nav />
+
         <AnimatePresence
           onExitComplete={onExitComplete}
           initial={false}
           mode="wait"
+          
         >
           <Component {...pageProps} />
         </AnimatePresence>
-      </div>
     </>
   );
 }
