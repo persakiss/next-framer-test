@@ -18,4 +18,4 @@ Prototyping a Next MPA with smooth transitions in lieu of the view transitions A
 
 Anyway this is a mockup. There's a lot that can be done here as a product placement shop leveraging midjourney as the origin and generative fill on photoshop as the directional movements transitioned to in different routes.
 
-Demo:  [next-framer-test.vercel.app](next-framer-test.vercel.app)
+Demo:  [next-framer-test.vercel.app](https://next-framer-test.vercel.app)
