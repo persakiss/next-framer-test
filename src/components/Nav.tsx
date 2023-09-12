@@ -8,19 +8,19 @@ function Nav({}: Props) {
     <nav>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/" scroll={false}>Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/about" scroll={false}>About</Link>
         </li>
         <li>
-          <Link href="/science">Science</Link>
+          <Link href="/science" scroll={false}>Science</Link>
         </li>
         <li>
-          <Link href="/cart">Cart</Link>
+          <Link href="/cart" scroll={false}>Cart</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact" scroll={false}>Contact</Link>
         </li>
       </ul>
     </nav>

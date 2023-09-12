@@ -11,7 +11,7 @@ type AboutPageRef = React.ForwardedRef<HTMLDivElement>;
 function Contact(props: AboutPageProps, ref: AboutPageRef) {
     return (
     <PageTransition ref={ref}>
-      <div className="page3"><div className="text"><h2>Contact</h2></div></div>
+      <div className="page5"><div className="text"></div></div>
     </PageTransition>
   );
 }

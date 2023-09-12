@@ -14,9 +14,9 @@ function PageTransition({ children, ...rest }: PageTransitionProps, ref: PageTra
 	return (
 		<motion.div
 			ref={ref}
-			initial={onTheRight}
-			animate={inTheCenter}
-			exit={onTheLeft}
+			initial={{opacity: 0}}
+			animate={{opacity: 1}}
+			exit={{opacity: 0}}
 			transition={transition}
 			{...rest}
 		>

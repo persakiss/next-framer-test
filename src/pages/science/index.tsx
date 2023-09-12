@@ -9,9 +9,11 @@ type AboutPageRef = React.ForwardedRef<HTMLDivElement>;
 
 
 function Science(props: AboutPageProps, ref: AboutPageRef) {
-    return (
+  return (
     <PageTransition ref={ref}>
-      <div className="page2"><div className="text"><h2>Science</h2></div></div>
+      <div className="page3">
+        <div className="text"></div>
+      </div>
     </PageTransition>
   );
 }
