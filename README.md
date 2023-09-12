@@ -14,8 +14,8 @@ yarn dev
 pnpm dev
 ```
 
-Prototyping a Next MPA with smooth transitions in lieu of the view transitions API for our company's ecommerce shop. MPA is important for SEO, and smooth transitions using next/framer (instead of astro+view transitions) would get everybody. Relying on view transitions not feasible at this stage as 90% visitors are mobile, and mobile + safari + firefox not supported yet. 
+Next MPA with smooth transitions in lieu of the view transitions API. MPA is important for SEO, and smooth transitions using next/framer (instead of astro+view transitions) would get everybody. Relying on view transitions not feasible at this stage as 90% visitors are mobile, and mobile + safari + firefox not supported yet. 
 
-Anyway this is a mockup. There's a lot that can be done here as a product placement shop leveraging midjourney as the origin and generative fill on photoshop as the directional movements transitioned to in different routes.
+There's a lot that can be done here as a product placement shop leveraging midjourney as the origin and generative fill on photoshop as the directional movements transitioned to in different routes.
 
 Demo:  [next-framer-test.vercel.app](https://next-framer-test.vercel.app)
